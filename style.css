@@ -1,0 +1,40 @@
+body {
+    color: black;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #CFD8DC;
+    background-repeat: no-repeat;
+}
+
+#background-img{
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+#card{
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #9E9E9E;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.time-font {
+    font-size: 40px;
+}
+
+.sm-font {
+    font-size: 15px;
+}
+
+.med-font {
+    font-size: 28px;
+}
+
+.large-font {
+    font-size: 50px;
+}

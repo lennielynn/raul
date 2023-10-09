@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="secrets.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js" defer></script>
+</head>
+
+<main>
+        <form action="" id="weatherform">
+        <label for="weather">Zip Code:</label><br><br>
+        <input title = 'enterzip' type="text" name="zipcode" id="zip-code"><br><br>
+        <input type="submit" value="Get Weather">
+</main>
+<body>
+    <div class="container-fluid px-1 px-md-4 py-5 mx-auto">
+        <div class="row d-flex justify-content-center px-3">
+            <div id="card">
+                <!-- <img id="background-img" src="./images/lightclouds.jpg" alt="clouds"> -->
+                <h2 id="City" class="ml-auto mr-4 mt-3 mb-0"><tr>City</tr></h2>
+                <p id="forecast" class="ml-auto mr-4 mb-0 med-font">Current Condition</p>
+                <h1 id="degrees"class="ml-auto mr-4 large-font">Temp&#176;</h1>
+                <p id="currentTime"class="time-font mb-0 ml-4 mt-auto">Time<span class="sm-font">AM/PM</span></p>
+                <p id="date"class="ml-4 mb-4">Date</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
